@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int factorial(int n) {
+double factorial(int n) {
     if (n == 0) {
         return 1;
     } else {
@@ -12,7 +12,7 @@ int factorial(int n) {
 int main() {
     int n;
     cin >> n;
-    int total = factorial(n);
+    double total = factorial(n);
 
     cout << "Faktorial: " << total << endl;
 
