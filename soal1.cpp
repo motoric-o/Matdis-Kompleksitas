@@ -4,7 +4,7 @@ using namespace std;
 int main() {
     int n;
     int bilangan;
-    int total = 0;
+    double total = 0;
     cin >> n;
 
     for (int i = 0; i < n; i++) {
@@ -12,7 +12,7 @@ int main() {
         total += bilangan;
     }
 
-    cout << "Rata-rata: " << (double)total/n << endl;
+    cout << "Rata-rata: " << total/n << endl;
 
     return 0;
 }
